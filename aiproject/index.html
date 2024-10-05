@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ming推荐使用的2024好用AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* 添加站主公告样式 */
+        #site-announcement {
+            background-color: #2a2a2a;
+            border: 1px solid #00ffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+        }
+        #site-announcement h2 {
+            color: #00ffff;
+            margin-top: 0;
+        }
+        #announcement-content {
+            color: #ffffff;
+            font-style: italic;
+        }
+        /* 添加留言区域样式 */
+        #comment-section {
+            background-color: #2a2a2a;
+            border: 1px solid #00ffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+        }
+        #comment-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        #comment-form textarea {
+            background-color: #3a3a3a;
+            color: #ffffff;
+            border: 1px solid #00ffff;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        #comment-form button {
+            align-self: flex-start;
+        }
+        #comments-list {
+            margin-top: 20px;
+        }
+        .comment {
+            background-color: #1e1e1e;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ming推荐使用的2024好用AI</h1>
+        <nav>
+            <ul>
+                <li><a href="#llm"><i class="fas fa-robot"></i> 大语言模型</a></li>
+                <li><a href="#image"><i class="fas fa-image"></i> 图像生成</a></li>
+                <li><a href="#video"><i class="fas fa-video"></i> 视频生成</a></li>
+                <li><a href="#music"><i class="fas fa-music"></i> 音乐生成</a></li>
+                <li><a href="#voice"><i class="fas fa-microphone"></i> 语音合成</a></li>
+                <li><a href="#sponsor"><i class="fas fa-heart"></i> 赞助我们</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- 在主要内容的开始处添加站主公告部分 -->
+        <section id="site-announcement">
+            <h2>站主公告</h2>
+            <div id="announcement-content">
+                <!-- 这里的内容将通过 JavaScript 动态更新 -->
+                正在加载公告...
+            </div>
+        </section>
+        
+        <section id="llm">
+            <h2>大语言模型</h2>
+            <h3>国外模型</h3>
+            <div class="product-grid">
+                <div class="product-card highlight">
+                    <h3>ChatGPT</h3>
+                    <p>OpenAI开发的强大对话AI，能够理解和生成人类语言。</p>
+                    <a href="https://chat.openai.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Claude</h3>
+                    <p>Anthropic开发的AI助手，擅长分析和创作。</p>
+                    <a href="https://www.anthropic.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Gemini</h3>
+                    <p>Google开发的多模态AI模型，可以处理文本、图像和视频。</p>
+                    <a href="https://deepmind.google/technologies/gemini/" target="_blank" class="btn">了解更多</a>
+                </div>
+            </div>
+            
+            <h3>国内模型</h3>
+            <div class="product-grid">
+                <div class="product-card highlight">
+                    <h3>豆包</h3>
+                    <p>字节跳动开发的AI对话助手，支持中文交互。</p>
+                    <a href="https://www.doubao.com/chat/?channel=baidu_pz&source=db_baidu_pz_01&keywordid=weizhi1" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Kimi</h3>
+                    <p>Moonshot AI开发的智能助手，擅长中文对话和任务处理。</p>
+                    <a href="https://kimi.moonshot.cn/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>文心一言</h3>
+                    <p>百度开发的大规模语言模型，支持多种中文应用场景。</p>
+                    <a href="https://yiyan.baidu.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="llm-guide.html" class="btn guide-btn">详细使用指南</a>
+                <a href="#" class="btn case-btn">制作案例展示</a>
+            </div>
+        </section>
+        
+        <section id="image">
+            <h2>图像生成</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>Midjourney</h3>
+                    <p>强大的AI图像生成工具，可创作高质量艺术作品。</p>
+                    <a href="https://www.midjourney.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Pika</h3>
+                    <p>创新的AI图像和视频生成平台，提供多样化的创意工具。</p>
+                    <a href="https://pika.art/home" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Stable Diffusion</h3>
+                    <p>开源的AI图像生成模型，可以本地运行。</p>
+                    <a href="https://stability.ai/" target="_blank" class="btn">了解更多</a>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="image-guide.html" class="btn guide-btn">详细使用指南</a>
+                <a href="#" class="btn case-btn">制作案例展示</a>
+            </div>
+        </section>
+        
+        <section id="video">
+            <h2>视频生成</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>Runway</h3>
+                    <p>AI驱动的创意工具，可以生成和编辑视频。</p>
+                    <a href="https://runwayml.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Synthesia</h3>
+                    <p>AI视频生成平台，可创建逼真的数字人物视频。</p>
+                    <a href="https://www.synthesia.io/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Sora</h3>
+                    <p>OpenAI开发的文本到视频生成模型。</p>
+                    <a href="https://openai.com/sora" target="_blank" class="btn">了解更多</a>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="video-guide.html" class="btn guide-btn">详细使用指南</a>
+                <a href="#" class="btn case-btn">制作案例展示</a>
+            </div>
+        </section>
+        
+        <section id="music">
+            <h2>音乐生成</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>Suno</h3>
+                    <p>AI驱动的音乐创作平台，可以生成各种风格的原创音乐。</p>
+                    <a href="https://suno.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Amper Music</h3>
+                    <p>AI驱动的音乐创作平台，适用于视频配乐。</p>
+                    <a href="https://www.ampermusic.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Mubert</h3>
+                    <p>AI音乐流媒体服务，可生成无限的背景音乐。</p>
+                    <a href="https://mubert.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="music-guide.html" class="btn guide-btn">详细使用指南</a>
+                <a href="#" class="btn case-btn">制作案例展示</a>
+            </div>
+        </section>
+        
+        <section id="voice">
+            <h2>语音合成</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>ElevenLabs</h3>
+                    <p>AI语音合成平台，可生成逼真的人声。</p>
+                    <a href="https://elevenlabs.io/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>WellSaid Labs</h3>
+                    <p>AI语音生成工具，适用于各种商业应用。</p>
+                    <a href="https://wellsaidlabs.com/" target="_blank" class="btn">了解更多</a>
+                </div>
+                <div class="product-card">
+                    <h3>Resemble AI</h3>
+                    <p>AI语音克隆和合成平台，可创建自定义声音。</p>
+                    <a href="https://www.resemble.ai/" target="_blank" class="btn">了解更多</a>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="voice-guide.html" class="btn guide-btn">详细使用指南</a>
+                <a href="#" class="btn case-btn">制作案例展示</a>
+            </div>
+        </section>
+
+        <section id="sponsor">
+            <h2>赞助我们</h2>
+            <div class="sponsor-content">
+                <p>如果您觉得这个AI产品精选集对您有帮助，歡迎你請我喝杯咖啡，以帮助我持续更新和维护这个网站。</p>
+                <div class="sponsor-options">
+                    <a href="#" class="btn sponsor-btn"><i class="fab fa-paypal"></i> PayPal 赞助</a>
+                    <a href="#" class="btn sponsor-btn"><i class="fab fa-alipay"></i> 支付宝赞助</a>
+                    <a href="#" class="btn sponsor-btn"><i class="fab fa-weixin"></i> 微信赞助</a>
+                </div>
+                <div class="sponsor-message">
+                    <p>���的支持是我们前进的动力！</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="social-media">
+            <h2>关注我的社交媒体</h2>
+            <div class="social-icons">
+                <a href="https://www.xiaohongshu.com/user/profile/5d5d77bc000000000101aac9?xhsshare=CopyLink&appuid=5d5d77bc000000000101aac9&apptime=1728138634" target="_blank" class="social-icon">
+                    <i class="fab fa-weibo"></i> <!-- 使用微博图标代替小红书 -->
+                </a>
+                <a href="https://www.instagram.com/ming_liu1107/?__pwa=1" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- 在主要内容的末尾添加留言区域 -->
+        <section id="comment-section">
+            <h2>用户留言</h2>
+            <form id="comment-form">
+                <textarea id="comment-input" rows="4" placeholder="在这里留下您的评论..."></textarea>
+                <button type="submit" class="btn">提交评论</button>
+            </form>
+            <div id="comments-list">
+                <!-- 评论将在这里动态添加 -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Ming推荐使用的2024好用AI. 保留所有权利。</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        // 更新获取和显示公告的函数
+        function fetchAnnouncement() {
+            // 这里是新的公告内容
+            const announcement = "欢迎你的来到！我將陸續更新网站内容，增加了更多实用的AI工具。以下是我使用上覺得很好用的實用ai工具，2024/10/20。Make work easier!!";
+            
+            document.getElementById('announcement-content').innerHTML = announcement;
+        }
+
+        // 页面加载完成后获取公告
+        window.addEventListener('load', fetchAnnouncement);
+
+        // 保持评论功能不变
+        document.getElementById('comment-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const commentInput = document.getElementById('comment-input');
+            const comment = commentInput.value.trim();
+            if (comment) {
+                const commentsList = document.getElementById('comments-list');
+                const commentElement = document.createElement('div');
+                commentElement.className = 'comment';
+                commentElement.textContent = comment;
+                commentsList.prepend(commentElement);
+                commentInput.value = '';
+            }
+        });
+    </script>
+</body>
+</html>
